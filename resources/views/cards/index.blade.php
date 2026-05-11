@@ -80,13 +80,6 @@ h1{
     margin-bottom:10px;
 }
 
-.price{
-    color:#2575fc;
-    font-size:22px;
-    font-weight:bold;
-    margin-bottom:10px;
-}
-
 .desc{
     color:#666;
     margin-bottom:15px;
