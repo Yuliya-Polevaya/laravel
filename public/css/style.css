@@ -8,6 +8,7 @@ body{
     font-family: Arial, sans-serif;
     min-height:100vh;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color:white;
 }
 
 .menu{
@@ -28,10 +29,30 @@ body{
     opacity:0.7;
 }
 
-h1{
+h1, h2{
     text-align:center;
     margin:30px 0;
     color:white;
+}
+
+.container,
+.intro-section,
+.admin-section,
+.user-section{
+    max-width:900px;
+    margin:30px auto;
+    padding:25px;
+    background: rgba(255,255,255,0.15);
+    border-radius:15px;
+}
+
+.container p,
+.intro-section p,
+.admin-section p,
+.user-section p{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:15px;
 }
 
 .content{
@@ -85,16 +106,48 @@ h1{
     color:white;
     text-decoration:none;
     border-radius:8px;
-    transition:0.3s;
 }
 
 .btn:hover{
     background:#1a5fd1;
 }
 
-footer{
-    margin-top:50px;
+form{
+    margin-top:20px;
+}
+
+label{
+    font-size:16px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:14px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    background:#ff6f91;
     color:white;
+    font-size:14px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff4f7a;
+}
+
+footer{
+    margin-top:40px;
     text-align:center;
+    color:white;
     padding:20px;
 }
