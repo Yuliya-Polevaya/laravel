@@ -11,6 +11,6 @@ class CardController extends Controller
     {
         $cards = Card::all();
 
-        return view('cards.index', ['cards' => $cards]);
+        return view('front.index', ['cards' => $cards]);
     }
 }
